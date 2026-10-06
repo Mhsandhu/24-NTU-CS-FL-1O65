@@ -2,24 +2,27 @@
 // Timer Interrupt (Internal)
 // Embedded IoT System Fall-2026
 
-// Name: xyz
-// Reg#: 1234
+// Name: muhammad hasnain anjum
+// Reg#: 24-ntu-cs-fl-1065
 
 #include <Arduino.h>
 
-#define LED 4
+#define EXTERNAL_LED 4
+#define ONBOARD_LED 2
 
 hw_timer_t *My_timer = NULL;
 
 // ISR - Interrupt Service Routine
 void IRAM_ATTR onTimer()
 {
-    digitalWrite(LED, !digitalRead(LED));
+    digitalWrite(EXTERNAL_LED, !digitalRead(EXTERNAL_LED));
+    digitalWrite(ONBOARD_LED, !digitalRead(ONBOARD_LED));
 }
 
 void setup()
 {
-    pinMode(LED, OUTPUT);
+    pinMode(EXTERNAL_LED, OUTPUT);
+    pinMode(ONBOARD_LED, OUTPUT);
 
     // Timer 0
     // ESP32 clock = 80 MHz
