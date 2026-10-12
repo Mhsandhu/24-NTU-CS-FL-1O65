@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="ESP32">
+  <rect x="14" y="14" width="36" height="36" rx="6" fill="#1f2937" stroke="#60a5fa" stroke-width="3"/>
+  <rect x="23" y="23" width="18" height="18" rx="3" fill="#60a5fa"/>
+  <path d="M8 22h6M8 32h6M8 42h6M50 22h6M50 32h6M50 42h6M22 8v6M32 8v6M42 8v6M22 50v6M32 50v6M42 50v6" stroke="#60a5fa" stroke-width="3" stroke-linecap="round"/>
+</svg>

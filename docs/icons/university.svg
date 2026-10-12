@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="University">
+  <path d="M7 25 32 10l25 15-25 15L7 25Z" fill="#2563eb" stroke="#93c5fd" stroke-width="3"/>
+  <path d="M14 33v17M24 39v11M40 39v11M50 33v17M9 53h46" fill="none" stroke="#fbbf24" stroke-width="4" stroke-linecap="round"/>
+  <path d="M32 10v30" stroke="#dbeafe" stroke-width="3"/>
+</svg>

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="I2C bus">
+  <circle cx="12" cy="32" r="7" fill="#f59e0b"/>
+  <circle cx="52" cy="20" r="7" fill="#f59e0b"/>
+  <circle cx="52" cy="44" r="7" fill="#f59e0b"/>
+  <path d="M19 32h13M32 32l13-12M32 32l13 12" fill="none" stroke="#fbbf24" stroke-width="4" stroke-linecap="round"/>
+  <path d="M25 27v10" stroke="#fde68a" stroke-width="3" stroke-linecap="round"/>
+</svg>

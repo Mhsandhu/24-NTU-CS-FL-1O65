@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Push button">
+  <rect x="10" y="20" width="44" height="32" rx="5" fill="#334155" stroke="#94a3b8" stroke-width="3"/>
+  <circle cx="32" cy="36" r="11" fill="#16a34a" stroke="#86efac" stroke-width="3"/>
+  <path d="M32 8v9M32 47v9" stroke="#f8fafc" stroke-width="4" stroke-linecap="round"/>
+</svg>
