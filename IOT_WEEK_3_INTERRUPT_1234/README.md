@@ -12,7 +12,7 @@
 </p>
 
 <p>
-  <strong>Registration:</strong> 1234
+  <strong>Registration:</strong> 24-NT-CS-FL-1065
   &nbsp;&nbsp;|&nbsp;&nbsp;
   <strong>Platform:</strong> ESP32
 </p>
