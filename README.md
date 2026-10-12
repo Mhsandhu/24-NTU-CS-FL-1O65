@@ -1,192 +1,199 @@
 <div align="center">
 
-<table>
-<tr>
-<td align="center" bgcolor="#0f172a">
-<br>
-<img src="docs/icons/embedded-iot.svg" alt="Embedded IoT" width="110">
-<br><br>
-<font color="#7dd3fc" size="6"><strong>EMBEDDED IoT</strong></font>
-<br>
-<font color="#cbd5e1">5TH SEMESTER PRACTICAL PORTFOLIO</font>
-<br><br>
-<font color="#ffffff"><strong>NATIONAL TEXTILE UNIVERSITY</strong></font>
-<br><br>
-</td>
-</tr>
-</table>
+<img src="https://api.iconify.design/mdi:chip.svg?color=%2322D3EE&width=100" width="100" height="100" alt="Embedded IoT" />
 
-<br>
+# EMBEDDED IoT
 
-<img src="docs/icons/esp32.svg" alt="ESP32" height="38">
-&nbsp;&nbsp;&nbsp;
-<img src="docs/icons/oled.svg" alt="OLED" height="38">
-&nbsp;&nbsp;&nbsp;
-<img src="docs/icons/sensor.svg" alt="Sensor" height="38">
-&nbsp;&nbsp;&nbsp;
-<img src="docs/icons/wokwi.svg" alt="Wokwi" height="38">
-&nbsp;&nbsp;&nbsp;
-<img src="docs/icons/cpp.svg" alt="C++" height="38">
+### 5TH SEMESTER PRACTICAL PORTFOLIO
+
+**National Textile University**
+
+<br/>
+
+<img src="https://img.shields.io/badge/ESP32-E7352C?style=for-the-badge&logo=espressif&logoColor=white" alt="ESP32" />
+<img src="https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white" alt="Arduino" />
+<img src="https://img.shields.io/badge/PlatformIO-F5822A?style=for-the-badge&logo=platformio&logoColor=white" alt="PlatformIO" />
+<img src="https://img.shields.io/badge/Wokwi-22D3EE?style=for-the-badge&logo=circuitverse&logoColor=white" alt="Wokwi" />
+<img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" alt="C++" />
 
 </div>
 
-<br>
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### <img src="docs/icons/esp32.svg" width="25" alt="Student"> STUDENT
-
-**Muhammad Hasnain Anjum**  
-`24-NTU-CS-FL-1065`
-
-</td>
-<td width="50%" valign="top">
-
-### <img src="docs/icons/university.svg" width="25" alt="University"> ACADEMIC
-
-**Embedded IoT**  
-5th Semester · National Textile University
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### <img src="docs/icons/university.svg" width="25" alt="Instructor"> SUPERVISOR
-
-**Sir Nasir Mehmood**
-
-</td>
-<td width="50%" valign="top">
-
-### <img src="docs/icons/platformio.svg" width="25" alt="PlatformIO"> STACK
-
-ESP32 · Arduino · PlatformIO · Wokwi
-
-</td>
-</tr>
-</table>
+<br/>
 
 ---
 
-## Practical Work
+<br/>
 
-<table>
-<tr>
-<td width="50%" valign="top">
+## Academic Profile
 
-### <img src="docs/icons/led.svg" width="30" alt="LED"> Task 1
+<img src="https://api.iconify.design/mdi:account-circle-outline.svg?color=%2322D3EE&width=22" width="20" valign="middle" /> &nbsp;**Student** — Muhammad Hasnain Anjum &nbsp;·&nbsp; <code>24-NTU-CS-FL-1065</code>
 
-**[ESP32 LED Blink](IOT_TASK_1_1065/README.md)**  
-GPIO output and timed LED control
+<img src="https://api.iconify.design/mdi:school-outline.svg?color=%2322D3EE&width=22" width="20" valign="middle" /> &nbsp;**University** — National Textile University &nbsp;·&nbsp; 5th Semester
 
-</td>
-<td width="50%" valign="top">
+<img src="https://api.iconify.design/mdi:book-open-variant-outline.svg?color=%2322D3EE&width=22" width="20" valign="middle" /> &nbsp;**Subject** — Embedded IoT &nbsp;·&nbsp; Hardware and Software Practicals
 
-### <img src="docs/icons/button.svg" width="30" alt="Button"> Week 2
-
-**[Button-Controlled Dual LED](IOT-WEEK-2-1065/README.md)**  
-Digital input with two LED outputs
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### <img src="docs/icons/interrupt.svg" width="30" alt="Interrupt"> Week 3
-
-**[External Interrupt](IOT_WEEK_3_INTERRUPT_1234/README.md)**  
-Button interrupt and LED toggle
-
-</td>
-<td width="50%" valign="top">
-
-### <img src="docs/icons/timer.svg" width="30" alt="Timer"> Week 3
-
-**[Internal Timer Interrupt](IOT_WEEK_3_TIMER_1065/README.md)**  
-ESP32 hardware timer control
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### <img src="docs/icons/debounce.svg" width="30" alt="Debounce"> Week 4
-
-**[Timer-Based Debounce](IOT-WEEK-4-DEBOUNCE-1065/README.md)**  
-Reliable button input with timer logic
-
-</td>
-<td width="50%" valign="top">
-
-### <img src="docs/icons/oled.svg" width="30" alt="OLED"> Display
-
-**[OLED Display](IOT_DISPLAY_1065/README.md)**  
-SSD1306 output over I2C
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### <img src="docs/icons/debounce.svg" width="30" alt="Debounce"> Homework 1
-
-**[OLED Button Debounce](IOT-HOMEWORK-1-1065/README.md)**  
-Press counter and OLED status
-
-</td>
-<td width="50%" valign="top">
-
-### <img src="docs/icons/sensor.svg" width="30" alt="Sensor"> Week 5
-
-**[DHT Sensor OLED Monitor](<WEEK 5 DHT11_OLED 1065/README.md>)**  
-Temperature and humidity display
-
-</td>
-</tr>
-</table>
-
----
-
-## Components and Tools
+<br/>
 
 <div align="center">
 
 <table>
-<tr>
-<td align="center"><img src="docs/icons/esp32.svg" width="48" alt="ESP32"><br><strong>ESP32</strong></td>
-<td align="center"><img src="docs/icons/oled.svg" width="48" alt="OLED"><br><strong>SSD1306</strong></td>
-<td align="center"><img src="docs/icons/sensor.svg" width="48" alt="DHT sensor"><br><strong>DHT11 / DHT22</strong></td>
-<td align="center"><img src="docs/icons/button.svg" width="48" alt="Button"><br><strong>Buttons</strong></td>
-<td align="center"><img src="docs/icons/led.svg" width="48" alt="LED"><br><strong>LEDs</strong></td>
-</tr>
+  <tr>
+    <td align="center">
+      <img src="https://api.iconify.design/mdi:account-tie.svg?color=%2322D3EE&width=48" width="48" height="48" alt="Instructor" /><br/><br/>
+      <sub>COURSE INSTRUCTOR</sub>
+      <br/>
+      <strong style="font-size:20px">Sir Nasir Mehmood</strong>
+    </td>
+  </tr>
 </table>
-
-<img src="docs/icons/platformio.svg" width="26" alt="PlatformIO">
-&nbsp; PlatformIO
-&nbsp;&nbsp;&nbsp;
-<img src="docs/icons/wokwi.svg" width="26" alt="Wokwi">
-&nbsp; Wokwi
-&nbsp;&nbsp;&nbsp;
-<img src="docs/icons/cpp.svg" width="26" alt="C++">
-&nbsp; C++ / Arduino
 
 </div>
 
+<br/>
+
 ---
+
+<br/>
+
+## About This Repository
+
+This repository contains practical work for the **Embedded IoT** course. It focuses on building and simulating ESP32-based systems with sensors, displays, buttons, LEDs, interrupts, and timers.
+
+<br/>
+
+---
+
+<br/>
+
+## Hardware
+
+<table align="center" width="100%">
+  <tr>
+    <td align="center" width="25%">
+      <img src="https://api.iconify.design/mdi:memory.svg?color=%2322D3EE&width=40" width="40" height="40" alt="ESP32" /><br/><br/>
+      <strong>ESP32</strong>
+      <br/><br/>
+      Microcontroller
+    </td>
+    <td align="center" width="25%">
+      <img src="https://api.iconify.design/mdi:monitor-small.svg?color=%2322D3EE&width=40" width="40" height="40" alt="OLED" /><br/><br/>
+      <strong>SSD1306 OLED</strong>
+      <br/><br/>
+      I2C Display
+    </td>
+    <td align="center" width="25%">
+      <img src="https://api.iconify.design/mdi:thermometer-lines.svg?color=%2322D3EE&width=40" width="40" height="40" alt="DHT Sensor" /><br/><br/>
+      <strong>DHT11 / DHT22</strong>
+      <br/><br/>
+      Temperature and Humidity
+    </td>
+    <td align="center" width="25%">
+      <img src="https://api.iconify.design/mdi:led-on.svg?color=%2322D3EE&width=40" width="40" height="40" alt="GPIO Devices" /><br/><br/>
+      <strong>GPIO Devices</strong>
+      <br/><br/>
+      Buttons and LEDs
+    </td>
+  </tr>
+</table>
+
+<br/>
+
+---
+
+<br/>
+
+## Development Environment
+
+<table align="center" width="100%">
+  <tr>
+    <td align="center" width="20%">
+      <img src="https://api.iconify.design/simple-icons:espressif.svg?color=%23E7352C&width=40" width="40" height="40" alt="ESP32" /><br/><br/>
+      <strong>ESP32</strong>
+      <br/><br/>
+      Target Microcontroller
+    </td>
+    <td align="center" width="20%">
+      <img src="https://api.iconify.design/logos:c-plusplus.svg?width=40" width="40" height="40" alt="C++" /><br/><br/>
+      <strong>C++</strong>
+      <br/><br/>
+      Firmware Language
+    </td>
+    <td align="center" width="20%">
+      <img src="https://api.iconify.design/logos:arduino.svg?width=40" width="40" height="40" alt="Arduino" /><br/><br/>
+      <strong>Arduino</strong>
+      <br/><br/>
+      Development Framework
+    </td>
+    <td align="center" width="20%">
+      <img src="https://api.iconify.design/logos:platformio.svg?width=40" width="40" height="40" alt="PlatformIO" /><br/><br/>
+      <strong>PlatformIO</strong>
+      <br/><br/>
+      Build Environment
+    </td>
+    <td align="center" width="20%">
+      <img src="https://api.iconify.design/mdi:lan-connect.svg?color=%2322D3EE&width=40" width="40" height="40" alt="Wokwi" /><br/><br/>
+      <strong>Wokwi</strong>
+      <br/><br/>
+      Circuit Simulation
+    </td>
+  </tr>
+</table>
+
+<br/>
+
+---
+
+<br/>
+
+## Learning Focus
+
+<table align="center" width="100%">
+  <tr>
+    <td align="center" width="25%">
+      <img src="https://api.iconify.design/mdi:electric-switch.svg?color=%2322D3EE&width=40" width="40" height="40" alt="GPIO Control" /><br/><br/>
+      <strong>GPIO Control</strong>
+      <br/><br/>
+      Digital input and output
+    </td>
+    <td align="center" width="25%">
+      <img src="https://api.iconify.design/mdi:flash-alert-outline.svg?color=%2322D3EE&width=40" width="40" height="40" alt="Interrupts" /><br/><br/>
+      <strong>Interrupts</strong>
+      <br/><br/>
+      Event-driven control
+    </td>
+    <td align="center" width="25%">
+      <img src="https://api.iconify.design/mdi:timer-outline.svg?color=%2322D3EE&width=40" width="40" height="40" alt="Timers" /><br/><br/>
+      <strong>Timers</strong>
+      <br/><br/>
+      Hardware timing
+    </td>
+    <td align="center" width="25%">
+      <img src="https://api.iconify.design/mdi:pulse.svg?color=%2322D3EE&width=40" width="40" height="40" alt="Debouncing" /><br/><br/>
+      <strong>Debouncing</strong>
+      <br/><br/>
+      Reliable button input
+    </td>
+  </tr>
+</table>
+
+<br/>
+
+---
+
+<br/>
 
 <div align="center">
 
-<img src="docs/icons/embedded-iot.svg" width="45" alt="Embedded IoT">
+### BUILD · CONNECT · SIMULATE
 
-### Learn. Build. Simulate.
+ESP32 practical implementations documented with firmware, circuit diagrams, and simulation resources.
 
-Every project contains its firmware, PlatformIO configuration, Wokwi circuit and focused documentation.
+<br/><br/>
 
-<br>
+<img src="https://api.iconify.design/mdi:chip.svg?color=%2322D3EE&width=36" width="36" height="36" alt="Embedded IoT" />
 
-**Embedded IoT · National Textile University · 2026**
+<br/>
+
+**Embedded IoT · National Textile University**
 
 </div>
