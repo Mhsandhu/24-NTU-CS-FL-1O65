@@ -1,4 +1,4 @@
-// M HASNAIN ANJUM  //24_NTU_CS_FL_1065
+//HasNAIN ANJUM   //24_NTU_CS_FL_1065
 
 #include <Arduino.h>
 #include <Wire.h>
@@ -46,6 +46,14 @@ void setup() {
     Serial.println("OLED initialized successfully.");
 }
 
+
 void loop() {
-    // Add your application code here.
+    display.clearDisplay();
+    display.setTextSize(1);
+    display.setTextColor(SSD1306_WHITE);
+
+    display.setCursor(0, 0);
+    display.println("HELLO IOT");
+
+    display.display();
 }
