@@ -1,3 +1,9 @@
+
+// MUHAMMD HASNAIN ANJUM 
+// 24-NTU-CS-FL-1065
+// HOME WORK TASK 1 
+//DEBOUNCE OLED DISPLAY
+
 #include <Arduino.h>
 #include <Wire.h>
 #include <Adafruit_GFX.h>
@@ -11,16 +17,16 @@
 #define OLED_RESET -1
 #define OLED_ADDRESS 0x3C
 
-Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
+Adafruit_SSD1306 display(SCREEN_WIDTH,SCREEN_HEIGHT,&Wire,OLED_RESET);
 
-unsigned long lastDebounceTime = 0;
-const unsigned long debounceInterval = 50;
+unsigned long lastDebounceTime=0;
+const unsigned long debounceInterval=50;
 
-int lastButtonReading = HIGH;
-int stableButtonState = HIGH;
+int lastButtonReading=HIGH;
+int stableButtonState=HIGH;
 
-unsigned long pressCount = 0;
-bool displayNeedsUpdate = true;
+unsigned long pressCount=0;
+bool displayNeedsUpdate=true;
 
 void updateDisplay()
 {
@@ -28,14 +34,14 @@ void updateDisplay()
     display.setTextColor(SSD1306_WHITE);
 
     display.setTextSize(1);
-    display.setCursor(15, 0);
-    display.println("1065_ESP32 STATUS");
+    display.setCursor(15,0);
+    display.println("65-80_ESP32 STATUS");
 
-    display.drawLine(0, 12, 127, 12, SSD1306_WHITE);
+    display.drawLine(0,13,126,13,SSD1306_WHITE);
 
-    display.setCursor(0, 20);
+    display.setCursor(0,20);
     display.print("Button: ");
-    if (stableButtonState == LOW)
+    if(stableButtonState==LOW)
     {
         display.println("PRESSED");
     }
@@ -44,11 +50,11 @@ void updateDisplay()
         display.println("RELEASED");
     }
 
-    display.setCursor(0, 38);
+    display.setCursor(0,38);
     display.print("Press Count: ");
     display.println(pressCount);
 
-    display.setCursor(0, 54);
+    display.setCursor(0,54);
     display.println("Debounce: 50ms");
 
     display.display();
@@ -58,13 +64,13 @@ void setup()
 {
     Serial.begin(115200);
 
-    pinMode(BUTTON_PIN, INPUT_PULLUP);
-    Wire.begin(OLED_SDA, OLED_SCL);
+    pinMode(BUTTON_PIN,INPUT_PULLUP);
+    Wire.begin(OLED_SDA,OLED_SCL);
 
-    if (!display.begin(SSD1306_SWITCHCAPVCC, OLED_ADDRESS))
+    if(!display.begin(SSD1306_SWITCHCAPVCC,OLED_ADDRESS))
     {
         Serial.println("OLED initialization failed!");
-        while (true)
+        while(true)
         {
             yield();
         }
@@ -73,7 +79,7 @@ void setup()
     display.clearDisplay();
     display.setTextColor(SSD1306_WHITE);
     display.setTextSize(1);
-    display.setCursor(0, 0);
+    display.setCursor(0,0);
     display.println("ESP32 OLED Project");
     display.println("Initializing...");
     display.display();
@@ -86,22 +92,25 @@ void setup()
 
 void loop()
 {
-    int buttonReading = digitalRead(BUTTON_PIN);
+    int buttonReading=digitalRead(BUTTON_PIN);
 
-    if (buttonReading != lastButtonReading)
+    // Restart the debounce timer whenever the raw input changes.
+    if(buttonReading!=lastButtonReading)
     {
-        lastDebounceTime = millis();
-        lastButtonReading = buttonReading;
+        lastDebounceTime=millis();
+        lastButtonReading=buttonReading;
     }
 
-    if (millis() - lastDebounceTime >= debounceInterval)
+    // Accept a new button state only after it remains stable for 50 ms.
+    if(millis()-lastDebounceTime>=debounceInterval)
     {
-        if (buttonReading != stableButtonState)
+        if(buttonReading!=stableButtonState)
         {
-            stableButtonState = buttonReading;
-            displayNeedsUpdate = true;
+            stableButtonState=buttonReading;
+            displayNeedsUpdate=true;
 
-            if (stableButtonState == LOW)
+            // Count only the transition to the pressed state.
+            if(stableButtonState==LOW)
             {
                 pressCount++;
                 Serial.print("Accepted press count: ");
@@ -110,9 +119,10 @@ void loop()
         }
     }
 
-    if (displayNeedsUpdate)
+    // Refresh the OLED only when the accepted state changes.
+    if(displayNeedsUpdate)
     {
         updateDisplay();
-        displayNeedsUpdate = false;
+        displayNeedsUpdate=false;
     }
 }
